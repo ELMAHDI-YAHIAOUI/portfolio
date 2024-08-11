@@ -55,7 +55,7 @@ html {
 
 }
 .skill{
-  width: 90%;
+  width: 100%;
   max-width: 1536px;
   margin-inline: auto;
   margin : 100px 0;
@@ -119,7 +119,7 @@ html {
 
 .div2 span {
   display: block;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 27px;
   color: #292423;
@@ -174,6 +174,13 @@ body {
   line-height: 41px;
   margin-bottom: 15px;
 }
+#mee{
+  font-size: 32px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 41px;
+  margin-bottom: 15px;
+}
 #skills{
   font-size: 40px;
   font-weight: 800;
@@ -212,7 +219,7 @@ nav {
 .navigation-bar a:not(.hire-btn a):before{
   content: '';
   position: absolute;
-  background-color: #ff0000;
+  background-color: #000000;
   width: 0;
   left: 0;
   bottom: 0;
@@ -632,6 +639,7 @@ width: 240px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 500px;
 }
 
 
@@ -737,3 +745,60 @@ footer{
 .up-side .navigation-barre ul li a:hover {
   opacity: 0.5;
 }
+
+
+.button1 {
+  padding: 10px 32px;
+  background: #fff;
+  border-radius: 50px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  background: #292423;
+  color: #fff;
+  opacity: 1;
+}
+
+.button1:hover {
+  transform: translateY(-3px);
+  background: #ffffff;
+  color: #292423;
+  border:  #292423 1px solid;
+}
+
+
+
+
+.Projects{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.project{
+  width: 325px;
+  background-color: #E7E5E6;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+.project img{
+  width: 100%;
+  height: 250px;
+}
+.project-content{
+  padding: 16px;
+}
+.project-content h3{
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.project-content p{
+  color: #666;
+  line-height: 1.3;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+
