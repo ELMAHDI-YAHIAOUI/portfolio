@@ -809,7 +809,7 @@ a.btn-main:hover span {
     padding-top: 15px;
   }
   .container {
-    padding: 0 20px;
+    padding: 0 15px;
     
   }
   .scroll{
@@ -913,6 +913,10 @@ a.btn-main:hover span {
   width: 100%;
 
   
+}
+.col-left h1 {
+  margin-left: 0;
+  padding-left: 0;
 }
 
 }
