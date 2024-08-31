@@ -22,7 +22,4 @@ modalCloseBtns.forEach((modalCloseBtn) => {
 
 
 
-$('.toggle-bar').on('click', function () {
-    $(this).toggleClass('open'); // Changed from 'this' to $(this)
-    $('.navigation-bar').slideToggle(200); // Removed quotes from 200
-});
+
