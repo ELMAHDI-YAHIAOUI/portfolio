@@ -248,7 +248,7 @@ width: 240px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 500px;
+  margin-left: 400px;
 }
 
 .contacte {
@@ -812,7 +812,7 @@ a.btn-main:hover span {
     
   }
   .scroll{
-    margin-left: 150px;
+    margin-left: 110px;
   }
 
 
@@ -838,8 +838,19 @@ a.btn-main:hover span {
   .col-left p {
     width: 100%;
   }
+
+  a.btn-main span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: #35343d;
+    border-radius: 50px;
+    margin: 0 0 0 12px;
+    transition: all 0.3s;
+    text-align: center;
+  }
   a.btn-main span img {
-    margin: 0px 0 4px 0;
+    margin: 5px 0 0 7px;
   }
   .experience-section {
     margin-top: 50px;
